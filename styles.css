@@ -101,7 +101,8 @@ button {
   display: flex;
   justify-content: space-between;
 }
-.action-btns button {
+
+button {
   background-color: #fff;
   border: 1px solid #ccc;
   color: #888;
@@ -163,4 +164,15 @@ input:focus {
   padding: 0;
   width: 2rem;
   height: 2rem;
+}
+
+.btn--add-set {
+  border: 2px dashed #ccc;
+  color: rgba(9, 9, 121, 0.7);
+  font-weight: 700;
+  transition: all 0.1s;
+}
+
+.btn--add-set:hover {
+  border-color: rgba(9, 9, 121, 0.7);
 }
