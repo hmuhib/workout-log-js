@@ -44,6 +44,7 @@ input {
 
 .date {
   color: #444444a9;
+  font-size: 14px;
 }
 
 .card__header {
@@ -79,7 +80,27 @@ button {
   font-size: 16px;
 }
 
-button:hover {
+.button--primary:hover {
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
+}
+
+.exercise {
+  border-radius: 0.5em;
+  border-left: 4px solid rgba(9, 9, 121, 0.35);
+  padding: 1rem;
+  background-color: rgba(9, 9, 121, 0.03);
+}
+
+.exercise__header {
+  display: flex;
+  justify-content: space-between;
+}
+.action-btns button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #888;
+}
+.action-btns button:hover {
+  background-color: #eee;
 }
