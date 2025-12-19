@@ -164,6 +164,13 @@ input:focus {
   padding: 0;
   width: 2rem;
   height: 2rem;
+  border: none;
+  transition: all 0.1s;
+}
+
+.btn--delete:hover {
+  background-color: rgba(240, 45, 84, 0.65);
+  color: #fff;
 }
 
 .btn--add-set {
@@ -175,4 +182,17 @@ input:focus {
 
 .btn--add-set:hover {
   border-color: rgba(9, 9, 121, 0.7);
+}
+
+@media screen and (max-width: 576px) {
+  .set {
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+  }
+
+  .btn--delete {
+    position: absolute;
+    right: 1rem;
+  }
 }
